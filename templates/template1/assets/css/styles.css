@@ -9,7 +9,7 @@ body {
       font-family: "Poppins", sans-serif;
 }
 
-.mdc-wr {
+.template-1-wr {
     max-width: 400px;
     width: 100%;
     min-height: 100vh;
@@ -25,9 +25,9 @@ body {
 }
 
 .profile-info {
-  text-align: center;
-  padding: 20px;
-  margin-top: -100px;
+    text-align: center;
+    padding: 20px;
+    margin-top: -70px;
 }
 
 .profile-info img {
@@ -52,12 +52,10 @@ body {
 }
 
 .social-icons {
-    background-color: #fff;
-    border-radius: 25px;
+  
     min-height: 45px;
     margin:  0 auto 20px auto;
     font-size: 30px;
-    padding: 0 15px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -68,10 +66,14 @@ body {
     color: #000000;
     text-decoration: none;
     display: inline-flex;
+    background: #fff;
+    border-radius: 100%;
+    padding: 8px;
 }
 
 .social-icons a:hover {
-    color: #ff0000;
+    background-color: #0567ad;
+    color: #fff;
 }
 
 .profile-description {
@@ -167,7 +169,9 @@ body {
 
 .our-opening-hours,
 .our-facilities {
-    padding-top: 15px;
+    padding-top: 20px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
 .our-opening-hours h2,
@@ -190,8 +194,7 @@ body {
     display: flex;
     align-items: start;
     gap: 15px;
-    padding: 15px;
-    background: #fff;
+    padding: 0 15px;
     margin-bottom: 10px;
     border-radius: 8px;
 }
@@ -201,7 +204,7 @@ body {
 }
 
 .facilities-card .card-icon {
-    background: #00ff00;
+    background: #25D366;
     height: 25px;
     width: 25px;
     font-size: 12px;
@@ -215,9 +218,8 @@ body {
 }
 
 .contact-number {
-    color: #db0a0a; 
+    color: #2585d3; 
     font-size: 40px;
-    border: 3px solid #db0a0a;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -225,13 +227,39 @@ body {
     gap: 10px;
     margin-bottom: 15px;
     text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-.contact-number:hover {
-    background: #db0a0a; 
-    color: #fff; 
-}
-
+.address-info i, 
 .contact-number i {
-    font-size: 45px;
+    font-size: 30px;
+    /* border: 3px solid #fff; */
+    background: #25D366;
+    border-radius: 100%;
+    padding: 8px;
+    color: #fff;
+    /* -webkit-box-shadow: 0px 0px 5px 2px #cccccc;  */
+    /* box-shadow: 0px 0px 5px 2px #cccccc; */
+}
+
+/* Template Styles */
+.header-background {
+    height: 120px;
+    overflow: hidden;
+}
+
+.address-info {
+    margin-bottom: 30px;
+    border: 1px solid #ccc; 
+    padding: 20px;
+    border-radius: 10px;
+    background: #efefef;
+}
+
+.address-info i {
+    margin-bottom: 15px !important;
+    display:inline-block;
+    padding: 12px;
+    background: #ff0000;
 }
