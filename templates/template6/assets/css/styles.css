@@ -9,9 +9,13 @@ body {
       font-family: "Poppins", sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .template-6 {
-    max-width: 400px;
-    width: 100%;
+    max-width: 100%;
+    width: 500px;
     min-height: 100vh;
     margin: 0 auto;
     /* padding: 15px 0; */
@@ -271,7 +275,5 @@ body {
 }
 
 .gallery-image {
-    max-width: 100%;
-    width: 120px;
     border-radius: 4px;
 }
