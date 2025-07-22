@@ -5,8 +5,13 @@
 }
 
 body {
-    background: #efefef;
-      font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #000;
+    background-image: url(../images/background-image.jpg);
+    background-size: 400px auto;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 
 .mdc-wr {
@@ -14,41 +19,26 @@ body {
     width: 100%;
     min-height: 100vh;
     margin: 0 auto;
-    /* padding: 15px 0; */
-  -webkit-box-shadow: -1px 5px 10px 2px #cccccc; 
-  box-shadow: -1px 5px 10px 2px #cccccc;
 }
 
 .card-design {
-  background-color: #f5f5f5;
   min-height: 300px;
 }
 
 .profile-info {
   text-align: center;
-  padding: 20px;
-  margin-top: -100px;
-}
-
-.profile-info img {
-    border-radius: 100%;
-      -webkit-box-shadow: -1px 5px 10px 2px #cccccc; 
-    box-shadow: -1px 5px 10px 2px #cccccc;
-}
-
-.profile-info img {
-    margin-bottom: 20px;
+  padding: 175px 20px 20px 20px;
 }
 
 .profile-name {
-    margin-bottom: 2px;
+    margin-bottom: 12px;
     line-height: 1;
 }
 
 .profile-tag-line,
 .profile-position {
-    color: #9c9c9c;
-    margin-bottom: 20px;
+    color: #fff;
+    margin-bottom: 0;
 }
 
 .social-icons {
@@ -75,7 +65,7 @@ body {
 }
 
 .profile-description {
-    color: #9c9c9c;
+    color: #fff;
     font-size: 13px;
     line-height: 1.3;
 }
@@ -144,7 +134,6 @@ body {
 }
 
 .opening-hours span {
-    background: #efefef;
     padding: 10px 0;
     border-radius: 8px;
     display:inline-block;
@@ -156,13 +145,8 @@ body {
 
 /* Medical Store Styles */
 .profile-tag-line {
-    margin-bottom: 5px;
-    margin-top: -15px;
-    color: #000;
-}
-
-.tagline-desc {
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .our-opening-hours,
@@ -173,13 +157,6 @@ body {
 .our-opening-hours h2,
 .our-facilities h2 {
     text-align: center;
-}
-
-.our-opening-hours {
-    background: #fff;
-}
-.our-opening-hours .opening-hours {
-    background: #fff;
 }
 
 .facilites-cards-wr {
@@ -235,3 +212,41 @@ body {
 .contact-number i {
     font-size: 45px;
 }
+
+.bg-overlay {
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.contact-card2 {
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 30px 10px 10px 10px;
+    margin-top: 30px;
+}
+
+.contact-card2 a {
+    color: #000;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact-card2 .ph-phone {
+    font-size: 26px;
+    background: red;
+    border-radius: 100%;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    left: calc(50% - 23px);
+    top: -23px;
+}
+ 
